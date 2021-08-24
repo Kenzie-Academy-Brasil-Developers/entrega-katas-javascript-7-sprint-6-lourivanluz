@@ -10,7 +10,6 @@ const newForEach = (arr,callback) =>{
     }
 }
 
-// não sei se ta certo ou se tenho que fazer a callback separada
 const newFill = (arr,valor,indiceInicial = 0,indiceFinal = arr.length) =>{
     if(indiceInicial<0){
         indiceInicial = arr.length + indiceInicial
