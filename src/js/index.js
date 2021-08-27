@@ -73,6 +73,7 @@ const newFindIndex = (arr,callback) =>{
             return cbIndex
         }
     }
+    return -1
 }
 
 const newEvery = (arr,callback) =>{
